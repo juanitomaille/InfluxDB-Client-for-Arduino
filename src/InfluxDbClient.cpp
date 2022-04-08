@@ -25,7 +25,7 @@
  * SOFTWARE.
 */
 #include "InfluxDbClient.h"
-#include "Platform.h"
+//#include "Platform.h"
 #include "Version.h"
 
 // Uncomment bellow in case of a problem and rebuild sketch
