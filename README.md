@@ -1,3 +1,12 @@
+
+
+
+Juanitomaille's version 'cause of using ESP32S2 of makerfabs with 2.0.0alpha version of arduino framwork of espressif
+
+
+
+
+
 [![PlatformIO](https://github.com/tobiasschuerg/InfluxDB-Client-for-Arduino/workflows/PlatformIO/badge.svg)](https://github.com/tobiasschuerg/InfluxDB-Client-for-Arduino/actions/)
 
 # InfluxDB Arduino Client
