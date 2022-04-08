@@ -1,13 +1,13 @@
 
 #include "HTTPService.h"
-#include "Platform.h"
+//#include "Platform.h"
 #include "Version.h"
 
 // Uncomment bellow in case of a problem and rebuild sketch
 //#define INFLUXDB_CLIENT_DEBUG_ENABLE
 #include "util/debug.h"
 
-static const char UserAgent[] PROGMEM = "influxdb-client-arduino/" INFLUXDB_CLIENT_VERSION " (" INFLUXDB_CLIENT_PLATFORM " " INFLUXDB_CLIENT_PLATFORM_VERSION ")";
+static const char UserAgent[] PROGMEM = "influxdb-client-arduino/" INFLUXDB_CLIENT_VERSION " ()";
 
 #if defined(ESP8266)         
 bool checkMFLN(BearSSL::WiFiClientSecure  *client, String url);
